@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=utf-8" %>
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -5,154 +6,43 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
-
-<script>
-
-location.href = "index.jsp";
-
-</script>
-
-<!-- <html>
+<html>
 <head>
-<title>Elite Shoppy an Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
-/tags
+<title>PersMetic </title>
+<!--/tags -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Elite Shoppy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
-//tags
+<!--//tags -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
-//for bootstrap working
+<!-- //for bootstrap working -->
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
+<!--  헤더 Include -->
 <jsp:include page="/include/header.jsp" />
+
+<!--  배너 Include -->
 <jsp:include page="/include/banner.jsp" />
-Modal1
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				Modal content
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-					</div>
-						<div class="modal-body modal-body-sub_agile">
-						<div class="col-md-8 modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign In <span>Now</span></h3>
-									<form action="#" method="post">
-							<div class="styled-input agile-styled-input-top">
-								<input type="text" name="Name" required="">
-								<label>Name</label>
-								<span></span>
-							</div>
-							<div class="styled-input">
-								<input type="email" name="Email" required=""> 
-								<label>Email</label>
-								<span></span>
-							</div> 
-							<input type="submit" value="Sign In">
-						</form>
-						  <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
-															<li><a href="#" class="facebook">
-																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="twitter"> 
-																  <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="instagram">
-																  <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="pinterest">
-																  <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
-														</ul>
-														<div class="clearfix"></div>
-														<p><a href="#" data-toggle="modal" data-target="#myModal2" > Don't have an account?</a></p>
 
-						</div>
-						<div class="col-md-4 modal_body_right modal_body_right1">
-							<img src="images/log_pic.jpg" alt=" "/>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				//Modal content
-			</div>
-		</div>
-//Modal1
-Modal2
-		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				Modal content
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-					</div>
-						<div class="modal-body modal-body-sub_agile">
-						<div class="col-md-8 modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign Up <span>Now</span></h3>
-						 <form action="#" method="post">
-							<div class="styled-input agile-styled-input-top">
-								<input type="text" name="Name" required="">
-								<label>Name</label>
-								<span></span>
-							</div>
-							<div class="styled-input">
-								<input type="email" name="Email" required=""> 
-								<label>Email</label>
-								<span></span>
-							</div> 
-							<div class="styled-input">
-								<input type="password" name="password" required=""> 
-								<label>Password</label>
-								<span></span>
-							</div> 
-							<div class="styled-input">
-								<input type="password" name="Confirm Password" required=""> 
-								<label>Confirm Password</label>
-								<span></span>
-							</div> 
-							<input type="submit" value="Sign Up">
-						</form>
-						  <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
-															<li><a href="#" class="facebook">
-																  <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="twitter"> 
-																  <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="instagram">
-																  <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
-															<li><a href="#" class="pinterest">
-																  <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-																  <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
-														</ul>
-														<div class="clearfix"></div>
-														<p><a href="#">By clicking register, I agree to your terms</a></p>
+<!--  로그인 Modal Include -->
+<jsp:include page="/include/login.jsp" />
 
-						</div>
-						<div class="col-md-4 modal_body_right modal_body_right1">
-							<img src="images/log_pic.jpg" alt=" "/>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				//Modal content
-			</div>
-		</div>
-//Modal2
+<!--  회원가입 Include -->
+<jsp:include page="/include/signup.jsp" />
 
-banner
+
+<!-- banner -->
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		Indicators
+		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1" class=""></li>
@@ -215,9 +105,9 @@ banner
 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
-		The Modal
+		<!-- The Modal -->
     </div> 
-	//banner
+	<!-- //banner -->
     <div class="banner_bottom_agile_info">
 	    <div class="container">
             <div class="banner_bottom_agile_info_inner_w3ls">
@@ -243,7 +133,7 @@ banner
 		    </div> 
 		 </div> 
     </div>
-	schedule-bottom
+	<!-- schedule-bottom -->
 	<div class="schedule-bottom">
 		<div class="col-md-6 agileinfo_schedule_bottom_left">
 			<img src="images/mid.jpg" alt=" " class="img-responsive" />
@@ -273,8 +163,8 @@ banner
 		</div>
 		<div class="clearfix"> </div>
 	</div>
-//schedule-bottom
-  banner-bootom-w3-agileits
+<!-- //schedule-bottom -->
+  <!-- banner-bootom-w3-agileits -->
 	<div class="banner-bootom-w3-agileits">
 	<div class="container">
 		<h3 class="wthree_text_info">What's <span>Trending</span></h3>
@@ -319,7 +209,7 @@ banner
 	</div>
 	</div>
     </div>
-/grids
+<!--/grids-->
       <div class="agile_last_double_sectionw3ls">
             <div class="col-md-6 multi-gd-img multi-gd-text ">
 					<a href="womens.html"><img src="images/bot_1.jpg" alt=" "><h4>Flat <span>50%</span> offer</h4></a>
@@ -330,8 +220,8 @@ banner
 			</div>
 			<div class="clearfix"></div>
 	   </div>							
-/grids
-/new_arrivals 
+<!--/grids-->
+<!-- /new_arrivals --> 
 	<div class="new_arrivals_agile_w3ls_info"> 
 		<div class="container">
 		    <h3 class="wthree_text_info">New <span>Arrivals</span></h3>		
@@ -343,7 +233,7 @@ banner
 							<li> Footwear</li>
 						</ul>
 					<div class="resp-tabs-container">
-					/tab_one
+					<!--/tab_one-->
 						<div class="tab1">
 							<div class="col-md-3 product-men">
 								<div class="men-pro-item simpleCart_shelfItem">
@@ -659,8 +549,8 @@ banner
 							</div>
 							<div class="clearfix"></div>
 						</div>
-						//tab_one
-						/tab_two
+						<!--//tab_one-->
+						<!--/tab_two-->
 						<div class="tab2">
 							 <div class="col-md-3 product-men">
 								<div class="men-pro-item simpleCart_shelfItem">
@@ -976,7 +866,7 @@ banner
 							</div>
 							<div class="clearfix"></div>
 						</div>
-					 //tab_two
+					 <!--//tab_two-->
 						<div class="tab3">
 								
 						<div class="col-md-3 product-men">
@@ -1613,8 +1503,8 @@ banner
 				</div>	
 			</div>
 		</div>
-	//new_arrivals 
-	/we-offer
+	<!-- //new_arrivals --> 
+	<!-- /we-offer -->
 		<div class="sale-w3ls">
 			<div class="container">
 				<h6>We Offer Flat <span>40%</span> Discount</h6>
@@ -1622,8 +1512,8 @@ banner
 				<a class="hvr-outline-out button2" href="single.html">Shop Now </a>
 			</div>
 		</div>
-	//we-offer
-/grids
+	<!-- //we-offer -->
+<!--/grids-->
 <div class="coupons">
 		<div class="coupons-grids text-center">
 			<div class="w3layouts_mail_grid">
@@ -1668,8 +1558,8 @@ banner
 
 		</div>
 </div>
-grids
-footer
+<!--grids-->
+<!-- footer -->
 <div class="footer">
 	<div class="footer_agile_inner_info_w3l">
 		<div class="col-md-3 footer-left">
@@ -1777,9 +1667,9 @@ footer
 		<p class="copy-right">&copy 2017 Elite shoppy. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
 	</div>
 </div>
-//footer
+<!-- //footer -->
 
-login
+<!-- login -->
 			<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content modal-info">
@@ -1841,15 +1731,15 @@ login
 					</div>
 				</div>
 			</div>
-//login
+<!-- //login -->
 <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
-js
+<!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-//js
+<!-- //js -->
 <script src="js/modernizr.custom.js"></script>
-	Custom-JavaScript-File-Links 
-	cart-js
+	<!-- Custom-JavaScript-File-Links --> 
+	<!-- cart-js -->
 	<script src="js/minicart.min.js"></script>
 <script>
 	// Mini Cart
@@ -1862,8 +1752,8 @@ js
 	}
 </script>
 
-	//cart-js 
-script for responsive tabs						
+	<!-- //cart-js --> 
+<!-- script for responsive tabs -->						
 <script src="js/easy-responsive-tabs.js"></script>
 <script>
 	$(document).ready(function () {
@@ -1887,15 +1777,15 @@ script for responsive tabs
 	});
 	});
 </script>
-//script for responsive tabs		
-stats
+<!-- //script for responsive tabs -->		
+<!-- stats -->
 	<script src="js/jquery.waypoints.min.js"></script>
 	<script src="js/jquery.countup.js"></script>
 	<script>
 		$('.counter').countUp();
 	</script>
-//stats
-start-smoth-scrolling
+<!-- //stats -->
+<!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/jquery.easing.min.js"></script>
 <script type="text/javascript">
@@ -1906,7 +1796,7 @@ start-smoth-scrolling
 		});
 	});
 </script>
-here stars scrolling icon
+<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
 			/*
@@ -1922,11 +1812,10 @@ here stars scrolling icon
 								
 			});
 	</script>
-//here ends scrolling icon
+<!-- //here ends scrolling icon -->
 
 
-for bootstrap working
+<!-- for bootstrap working -->
 <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
- -->
