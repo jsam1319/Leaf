@@ -17,35 +17,22 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav menu__list">
+                    <img src="images/black2.png">
 					<li class="active menu__item menu__item--current"><a class="menu__link" href="index.jsp">Home <span class="sr-only">(current)</span></a></li>
-					<li class=" menu__item"><a class="menu__link" href="about.jsp">About</a></li>
+					<li class=" menu__item"><a class="menu__link" href="#">자가진단</a></li>
 					<li class="dropdown menu__item">
-						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Men's wear <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">제품별 <span class="caret"></span></a>
 							<ul class="dropdown-menu multi-column columns-3">
 								<div class="agile_inner_drop_nav_info">
 									<div class="col-sm-6 multi-gd-img1 multi-gd-text ">
-										<a href="mens.html"><img src="images/top2.jpg" alt=" "/></a>
+										<a href="mens.html"><img src="images/color.png" alt=" "/></a>
 									</div>
 									<div class="col-sm-3 multi-gd-img">
 										<ul class="multi-column-dropdown">
-											<li><a href="mens.jsp">Clothing</a></li>
-											<li><a href="mens.jsp">Wallets</a></li>
-											<li><a href="mens.jsp">Footwear</a></li>
-											<li><a href="mens.jsp">Watches</a></li>
-											<li><a href="mens.jsp">Accessories</a></li>
-											<li><a href="mens.jsp">Bags</a></li>
-											<li><a href="mens.jsp">Caps & Hats</a></li>
-										</ul>
-									</div>
-									<div class="col-sm-3 multi-gd-img">
-										<ul class="multi-column-dropdown">
-											<li><a href="mens.jsp">Jewellery</a></li>
-											<li><a href="mens.jsp">Sunglasses</a></li>
-											<li><a href="mens.jsp">Perfumes</a></li>
-											<li><a href="mens.jsp">Beauty</a></li>
-											<li><a href="mens.jsp">Shirts</a></li>
-											<li><a href="mens.jsp">Sunglasses</a></li>
-											<li><a href="mens.jsp">Swimwear</a></li>
+											<li><a href="mens.jsp">페이스</a></li>
+											<li><a href="mens.jsp">아이</a></li>
+											<li><a href="mens.jsp">립</a></li>
+											<li><a href="mens.jsp">네일</a></li>
 										</ul>
 									</div>
 									<div class="clearfix"></div>
@@ -53,29 +40,15 @@
 							</ul>
 					</li>
 					<li class="dropdown menu__item">
-						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Women's wear <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">톤별 <span class="caret"></span></a>
 							<ul class="dropdown-menu multi-column columns-3">
 								<div class="agile_inner_drop_nav_info">
 									<div class="col-sm-3 multi-gd-img">
 										<ul class="multi-column-dropdown">
-											<li><a href="womens.jsp">Clothing</a></li>
-											<li><a href="womens.jsp">Wallets</a></li>
-											<li><a href="womens.jsp">Footwear</a></li>
-											<li><a href="womens.jsp">Watches</a></li>
-											<li><a href="womens.jsp">Accessories</a></li>
-											<li><a href="womens.jsp">Bags</a></li>
-											<li><a href="womens.jsp">Caps & Hats</a></li>
-										</ul>
-									</div>
-									<div class="col-sm-3 multi-gd-img">
-										<ul class="multi-column-dropdown">
-											<li><a href="womens.jsp">Jewellery</a></li>
-											<li><a href="womens.jsp">Sunglasses</a></li>
-											<li><a href="womens.jsp">Perfumes</a></li>
-											<li><a href="womens.jsp">Beauty</a></li>
-											<li><a href="womens.jsp">Shirts</a></li>
-											<li><a href="womens.jsp">Sunglasses</a></li>
-											<li><a href="womens.jsp">Swimwear</a></li>
+											<li><a href="womens.jsp">봄웜톤</a></li>
+											<li><a href="womens.jsp">여름쿨톤</a></li>
+											<li><a href="womens.jsp">가을웜톤</a></li>
+											<li><a href="womens.jsp">겨울쿨톤</a></li>
 										</ul>
 									</div>
 									<div class="col-sm-6 multi-gd-img multi-gd-text ">
@@ -85,14 +58,7 @@
 								</div>
 							</ul>
 					</li>
-					<li class="menu__item dropdown">
-					   <a class="menu__link" href="#" class="dropdown-toggle" data-toggle="dropdown">Short Codes <b class="caret"></b></a>
-								<ul class="dropdown-menu agile_short_dropdown">
-									<li><a href="icons.jsp">Web Icons</a></li>
-									<li><a href="typography.jsp">Typography</a></li>
-								</ul>
-					</li>
-					<li class=" menu__item"><a class="menu__link" href="contact.jsp">Contact</a></li>
+					<li class=" menu__item"><a class="menu__link" href="#">My Page</a></li>
 				  </ul>
 				</div>
 			  </div>
